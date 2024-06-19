@@ -1,0 +1,78 @@
+.container1 {
+    background-image: url('../assets/people-2591928_960_720.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    object-fit: cover;
+
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -250px;
+
+}
+
+.car1:hover {
+
+    color: aqua;
+    transition: all ease-in-out, 0.5s;
+    border: 1px solid green;
+}
+
+.jijo1 {
+    background-image: url('../assets/pep1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.jijo2 {
+    background-image: url('../assets/pep22.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.jijo3 {
+    background-image: url('../assets/pep3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.checked {
+    color: orange;
+}
+
+.car678 {
+    height: 80px;
+    background-color: green;
+    border-radius: 15px;
+
+}
+
+@media only screen and (max-width: 656px) {
+    .container1 {
+        height: 1090px;
+    }
+
+    .car45 {
+        width: 370px;
+    }
+
+
+}
